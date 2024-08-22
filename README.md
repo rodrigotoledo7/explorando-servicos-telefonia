@@ -31,13 +31,12 @@ Deverá retornar "Sim" se o cliente contratou o serviço e "Nao" caso contrário
 ## Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-Entrada	              Saída
-movel
-Alice,movel,fixa	   Sim
-fixa
-Bob,movel,tv	       Nao
-tv
-Carol,movel,fixa,tv	   Sim
+
+|Entrada	        | Saída   |
+| ---|---|
+|movel - Alice,movel,fixa	|  Sim    |
+|fixa - Bob,movel,tv	    |  Nao    | 
+|tv - Carol,movel,fixa,tv |	   Sim|
 
 
 ## Descrição
@@ -54,7 +53,8 @@ A saída do programa deve ser uma única linha contendo:
 ## Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-Entrada	                Saída
-movel,banda larga,tv	Combo Completo
-movel,tv	            Combo Incompleto
-banda larga,tv,movel	Combo Completo
+|Entrada	          |     Saída        |
+|---|---|
+|movel,banda larga,tv |	Combo Completo   |
+|movel,tv	          | Combo Incompleto |
+|banda larga,tv,movel |	Combo Completo   |
